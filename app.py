@@ -152,13 +152,15 @@ with st.container():
         
         citycounts_df
     with left_column:
+        #allowing pdf to be downloaded
         with open("UFOProject.pdf", "rb") as pdf_file:
             PDFbyte = pdf_file.read()
-
+# download button
         st.download_button(label="Download FULL WRITTEN UFO ANALYSIS", 
                 data=PDFbyte,
                 file_name="UFOProject.pdf",
                 mime='application/octet-stream')
+    ## fun buttons
     with right_column:
         if st.button("CLICK ME"):
             st.snow()
