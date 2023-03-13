@@ -7,6 +7,7 @@ import seaborn as sns
 import numpy as np
 import time
 from streamlit.components.v1 import html
+import webbrowser
 
 #basic config of website
 st.set_page_config(page_title="Adrian's Portfolio", page_icon=":wave:",layout="wide")
@@ -97,8 +98,19 @@ with st.container():
         st.title("Hi I am Adrian:wave:")
     
         st.subheader("A Business Analytics Student from Florida Polytechnic University")
-        st.write("I dream of using my data skills to help solve problems and make deals.")
-        st.write("[My Linkedin](https://www.linkedin.com/in/adrian-m/)")
+        st.write("I strive to use my knowlege of data and business to solve problems and make deals!")
+        col1, col2, col3 = st.columns([.5,.5,.5])
+        with col1:
+            if st.button("My Linkedin:open_file_folder:"):
+                webbrowser.open("https://www.linkedin.com/in/adrian-m/")
+        with col2:
+            if st.button("Github:computer:"):
+                webbrowser.open("https://github.com/amyers498")   
+        with col3:
+            if st.button("My Resume/CV:scroll:"):
+                webbrowser.open("https://www.linkedin.com/in/adrian-m/overlay/1635516621678/single-media-viewer/?profileId=ACoAACzeli0BrK_8ieR3vyBJRiUX_AA2awrGE0E") 
+
+
     with right_column:
         st.image("BE231B4C-F280-414F-9073-62E5DFDD1F3A.jpg", width = 400 )
 with st.container():
