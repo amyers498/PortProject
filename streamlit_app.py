@@ -7,6 +7,7 @@ import seaborn as sns
 import numpy as np
 import time
 from streamlit.components.v1 import html
+
 #basic config of website
 st.set_page_config(page_title="Adrian's Portfolio", page_icon=":wave:",layout="wide")
 
