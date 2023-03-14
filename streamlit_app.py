@@ -9,6 +9,10 @@ import time
 from streamlit.components.v1 import html
 import webbrowser
 
+
+
+
+
 #basic config of website
 st.set_page_config(page_title="Adrian's Portfolio", page_icon=":wave:",layout="wide")
 
