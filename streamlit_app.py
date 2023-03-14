@@ -8,7 +8,7 @@ import numpy as np
 import time
 from streamlit.components.v1 import html
 import webbrowser
-
+from bokeh.models.widgets import Div
 
 
 
@@ -106,13 +106,25 @@ with st.container():
         col1, col2, col3 = st.columns([.5,.5,.5])
         with col1:
             if st.button("My Linkedin:open_file_folder:"):
-                webbrowser.open("https://www.linkedin.com/in/adrian-m/")
+               
+                js = "window.open('https://www.linkedin.com/in/adrian-m/')"  # New tab or window
+                html = '<img src onerror="{}">'.format(js)
+                div = Div(text=html)
+                st.bokeh_chart(div)
+                
         with col2:
             if st.button("Github:computer:"):
-                webbrowser.open("https://github.com/amyers498")   
+                js = "window.open('https://github.com/amyers498')"  # New tab or window
+                html = '<img src onerror="{}">'.format(js)
+                div = Div(text=html)
+                st.bokeh_chart(div)  
         with col3:
             if st.button("My Resume/CV:scroll:"):
-                webbrowser.open("https://www.linkedin.com/in/adrian-m/overlay/1635516621678/single-media-viewer/?profileId=ACoAACzeli0BrK_8ieR3vyBJRiUX_AA2awrGE0E") 
+                js = "window.open('https://www.linkedin.com/in/adrian-m/overlay/1635516621678/single-media-viewer/?profileId=ACoAACzeli0BrK_8ieR3vyBJRiUX_AA2awrGE0E')"  # New tab or window
+                html = '<img src onerror="{}">'.format(js)
+                div = Div(text=html)
+                st.bokeh_chart(div)   
+                
            
     with right_column:
         st.image("BE231B4C-F280-414F-9073-62E5DFDD1F3A.jpg", width = 400 )

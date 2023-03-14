@@ -12,6 +12,7 @@ numpy = "*"
 seaborn = "*"
 matplotlib = "*"
 importlib-resources = "*"
+bokeh = "==2.4.3"
 
 [dev-packages]
 
