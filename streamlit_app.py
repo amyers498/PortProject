@@ -109,8 +109,7 @@ with st.container():
         with col3:
             if st.button("My Resume/CV:scroll:"):
                 webbrowser.open("https://www.linkedin.com/in/adrian-m/overlay/1635516621678/single-media-viewer/?profileId=ACoAACzeli0BrK_8ieR3vyBJRiUX_AA2awrGE0E") 
-
-
+           
     with right_column:
         st.image("BE231B4C-F280-414F-9073-62E5DFDD1F3A.jpg", width = 400 )
 with st.container():

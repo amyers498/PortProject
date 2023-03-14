@@ -1,1 +1,8 @@
 streamlit==1.20.0
+requests 
+streamlit-lottie 
+pandas 
+numpy 
+seaborn 
+matplotlib 
+## figure out what versions and enter them 
