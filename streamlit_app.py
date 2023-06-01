@@ -8,6 +8,7 @@ import numpy as np
 import time
 from streamlit.components.v1 import html
 import webbrowser
+#this library is used for allowing buttons redirect to another website
 from bokeh.models.widgets import Div
 
 
@@ -54,7 +55,7 @@ p {
 
 <script>
 
-var countDownDate = new Date("Apr 14, 2023 00:00:00").getTime();
+var countDownDate = new Date("June 30, 2023 00:00:00").getTime();
 
 
 var x = setInterval(function() {
@@ -87,7 +88,7 @@ var x = setInterval(function() {
 html(Countdown_html)
 
 
-
+## Physically showing Animation
 st_lottie(Waving, height =100, key="waving")
 
 

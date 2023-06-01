@@ -5,4 +5,6 @@ pandas
 numpy 
 seaborn 
 matplotlib 
+webbrowser
+bokeh == 2.4.3
 ## figure out what versions and enter them 
