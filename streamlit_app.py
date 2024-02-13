@@ -136,7 +136,10 @@ with st.container():
         st.header("About")
         st.write("##")
         st.write( """
-        I thank you for visiting my website. This website is created using the streamlit framework which is python based. This is currently V2 of my website. Where I have added an admin control panel to change settings and information about text without having to modify code. I have a passion for coding. Specifically with data libraries. Feel free to scroll around and explore my portfolio page.
+       
+Thank you for taking the time to explore my website. I've built this platform using the Streamlit framework, leveraging Python to create a seamless user experience. This iteration, V2, introduces an intuitive admin control panel, enabling effortless adjustments to settings and text information without the need for manual code modifications.
+
+Driven by my passion for coding, I specialize in harnessing the power of data libraries to tackle real-world problems. My goal is to utilize data-driven approaches to solve complex challenges and make informed decisions. Feel free to navigate through my portfolio page to discover more about my projects and expertise.
         
         
         """)
