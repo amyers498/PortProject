@@ -30,7 +30,7 @@ Waving = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_F2Mv1p.j
 
 st.markdown("<h1 style='text-align: center; color: white;'>Portfolio Project V1</h1>", unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center; color: white;'>Days Until V2 </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white;'>Days Until V3 </h1>", unsafe_allow_html=True)
 
 
 Countdown_html = """
@@ -55,7 +55,7 @@ p {
 
 <script>
 
-var countDownDate = new Date("June 30, 2023 00:00:00").getTime();
+var countDownDate = new Date("June 30, 2024 00:00:00").getTime();
 
 
 var x = setInterval(function() {
@@ -121,7 +121,7 @@ with st.container():
                 st.bokeh_chart(div)  
         with col3:
             if st.button("My Resume/CV:scroll:"):
-                js = "window.open('https://www.linkedin.com/in/adrian-m/overlay/1635516621678/single-media-viewer/?profileId=ACoAACzeli0BrK_8ieR3vyBJRiUX_AA2awrGE0E')"  # New tab or window
+                js = "window.open('https://www.linkedin.com/in/adrian-m/overlay/1707779643190/single-media-viewer/?profileId=ACoAACzeli0BrK_8ieR3vyBJRiUX_AA2awrGE0E')"  # New tab or window
                 html = '<img src onerror="{}">'.format(js)
                 div = Div(text=html)
                 st.bokeh_chart(div)   
@@ -136,10 +136,7 @@ with st.container():
         st.header("About")
         st.write("##")
         st.write( """
-        I thank you for visiting my website. This website is created using Python and a framework called Streamlit.
-        The current design and state of this website is the product of me using this framework for the first time. 
-        Over the next 6 months I plan on consistently updating this website to display my skills and orijects to ultimately serve as
-        a portfolio site. I am passionate of the intersection where business meets data and technology and that is what I want to be displayed on my porrtfolio site.
+        I thank you for visiting my website. This website is created using the streamlit framework which is python based. This is currently V2 of my website. Where I have added an admin control panel to change settings and information about text without having to modify code. I have a passion for coding. Specifically with data libraries. Feel free to scroll around and explore my portfolio page.
         
         
         """)
