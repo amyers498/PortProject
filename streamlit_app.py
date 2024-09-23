@@ -55,7 +55,7 @@ p {
 
 <script>
 
-var countDownDate = new Date("June 30, 2024 00:00:00").getTime();
+var countDownDate = new Date("November 30, 2024 00:00:00").getTime();
 
 
 var x = setInterval(function() {
@@ -102,7 +102,7 @@ with st.container():
         
         st.title("Hi I am Adrian:wave:")
     
-        st.subheader("A Business Analytics Student from Florida Polytechnic University")
+        st.subheader("A Finance Student from University of Houston Victoria")
         st.write("I strive to use my knowlege of data and business to solve problems and make deals!")
         col1, col2, col3 = st.columns([.5,.5,.5])
         with col1:
