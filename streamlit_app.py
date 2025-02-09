@@ -121,7 +121,7 @@ with st.container():
                 st.bokeh_chart(div)  
         with col3:
             if st.button("My Resume/CV:scroll:"):
-                js = "window.open('https://www.linkedin.com/in/adrian-m/overlay/1707779643190/single-media-viewer/?profileId=ACoAACzeli0BrK_8ieR3vyBJRiUX_AA2awrGE0E')"  # New tab or window
+                js = "window.open('https://www.linkedin.com/in/adrian-m/overlay/1738741358870/single-media-viewer/?profileId=ACoAACzeli0BrK_8ieR3vyBJRiUX_AA2awrGE0E')"  # New tab or window
                 html = '<img src onerror="{}">'.format(js)
                 div = Div(text=html)
                 st.bokeh_chart(div)   
